@@ -1,0 +1,254 @@
+{
+  "tasks": [
+    {
+      "title": "Dashboard",
+      "description": "Serves as the homepage for Admins, providing a snapshot of the most critical metrics and KPIs related to users, venues, and overall platform performance.",
+      "subtasks": [
+        {
+          "title": "KPIs and Metrics",
+          "description": "Track KPIs and Metrics related to Users, Venues, and Events",
+          "subtasks": [
+            {
+              "title": "Users Metrics",
+              "description": "Track Total Registered Users, New Registrations, Active vs Inactive Users add the description through edit "
+            },
+            {
+              "title": "Venues Metrics",
+              "description": "Track Total Signed Venues, New Venues Onboarded, Guestlist Engagement, Spending/Consumption"
+            },
+            {
+              "title": "Events Metrics",
+              "description": "Track Upcoming Events Count, Most Popular Events"
+            },
+            {
+              "title": "Referrals Metrics",
+              "description": "Track Number of Referrals Sent, Referral Conversion Rate"
+            }
+          ]
+        },
+        {
+          "title": "Graphical Representations",
+          "description": "Create Bar charts, line charts, pie charts for user growth, venue performance over time, and event engagement."
+        },
+        {
+          "title": "Actionable Alerts/Notifications",
+          "description": "Implement User Registration Alerts, Venue Performance Alerts, Event Alerts"
+        }
+      ]
+    },
+    {
+      "title": "Venues Management",
+      "description": "Enables admins to create and manage venue profiles, track their performance, and set up events, discounts, and guestlists.",
+      "subtasks": [
+        {
+          "title": "Venue Profiles Restaurant",
+          "description": "Create/Update Venue Profile for Restaurant",
+          "subtasks": [
+            {
+              "title": "Basic Details Restaurant",
+              "description": "Add Name, Address, Phone Number, Logo, Type of Venue bar, club, lounge"
+            },
+            {
+              "title": "Contact Information Restaurant",
+              "description": "Add Venue managers contact details"
+            },
+            {
+              "title": "Business Agreement Details Restaurant",
+              "description": "Add Commission structure, discount rates"
+            },
+            {
+              "title": "Venue Status Management Restaurant",
+              "description": "Manage Signed/Not Signed status"
+            },
+            {
+              "title": "Venue Profile Table link here Restaurant",
+              "description": "Add Name of Restaurant, Logo, Type, Commission, Cuisine, Indoors, Outdoors, Bar, Special Events, Service time, Min/Max party size, Price range/person, Discount Details, Description/Caption"
+            },
+            {
+              "title": "Venue Performance Metrics Restaurant",
+              "description": "Track Total bookings, Average Spend, Integration with Google docs for settlements, Red Flags / Issues"
+            }
+          ]
+        },
+        {
+          "title": "Venue Profiles Clubbing",
+          "description": "Create/Update Venue Profile for Clubbing",
+          "subtasks": [
+            {
+              "title": "Basic Details Clubbing",
+              "description": "Add Name, Address, Phone Number, Logo, Type of Venue bar, club, lounge"
+            },
+            {
+              "title": "Contact Information Clubbing",
+              "description": "Add Venue managers contact details"
+            },
+            {
+              "title": "Business Agreement Details Clubbing",
+              "description": "Add Commission structure, discount rates"
+            },
+            {
+              "title": "Venue Status Management Clubbing",
+              "description": "Manage Signed/Not Signed status"
+            },
+            {
+              "title": "Venue Profile Clubbing",
+              "description": "Add Name of Club, Logo, Type, Commission, Guestlist, Indoors, Outdoors, Bar, Special Events, Guestlist open time, Guestlist Closing time, Venue Opening time, Venue Closing time, Max party size for booking, Discount Details, Description/Caption"
+            },
+            {
+              "title": "Create/Update Events",
+              "description": "Add Event Name, Date & Time, Venue, Event Description, Guestlist Info Available/Not Available, Table Bookings Available/Not Available, Discount Details, Creatives, Description/Caption"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Event Performance Tracking",
+      "description": "Track event performance",
+      "subtasks": [
+        {
+          "title": "Event Performance Metrics",
+          "description": "Track Number of Guestlist Sign-Ups, Check-Ins / Attendance, Discount Usage, Revenue Generated"
+        }
+      ]
+    },
+    {
+      "title": "Automated Notifications/Integration with WhatsApp",
+      "description": "Implement automated notifications and integration with WhatsApp",
+      "subtasks": [
+        {
+          "title": "Guestlist Notifications",
+          "description": "Implement Confirmation, Rejection, Successfully deleted, Booking confirmation, Status notifications"
+        },
+        {
+          "title": "Other Notifications",
+          "description": "Implement Reminder Notifications, Capacity / Sell-Out Alerts"
+        }
+      ]
+    },
+    {
+      "title": "Users Management",
+      "description": "Provides a comprehensive view of user profiles, their status, and activities on the PuraVida platform. It also handles user invitations, membership activations, and referrals.",
+      "subtasks": [
+        {
+          "title": "User Profile Management",
+          "description": "Manage user profiles",
+          "subtasks": [
+            {
+              "title": "Create/Update User",
+              "description": "Add Personal Details Name, Email, Phone Number, Status Guest, Invited, Member, Waitlist, Referral Information"
+            },
+            {
+              "title": "User Status Lifecycle",
+              "description": "Manage Invited, Active Member, Suspended/Inactive status"
+            },
+            {
+              "title": "User History",
+              "description": "Track Events Attended, Venues Visited, Total Spend, Referrals Made"
+            }
+          ]
+        },
+        {
+          "title": "Invitation & Activation Flow",
+          "description": "Manage user invitation and activation",
+          "subtasks": [
+            {
+              "title": "Invite User",
+              "description": "Implement Invite by Email or Phone, Generate Invite Link, Track Invite Status"
+            },
+            {
+              "title": "Activate User",
+              "description": "Implement Manual Approval, Automated Approval, Membership Confirmation"
+            }
+          ]
+        },
+        {
+          "title": "Referral Tracking",
+          "description": "Track referrals",
+          "subtasks": [
+            {
+              "title": "Referral Dashboard",
+              "description": "Show each users referral network and conversion rate"
+            },
+            {
+              "title": "Referral Rewards",
+              "description": "Implement Points or any other system that incentivizes referrals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reporting & Analytics",
+      "description": "Offer deeper insights into user behavior, venue performance, and event outcomes.",
+      "subtasks": [
+        {
+          "title": "User Analytics",
+          "description": "Track Demographics, Retention/Churn Rates, Engagement Metrics"
+        },
+        {
+          "title": "Venue & Event Analytics",
+          "description": "Track Revenue Reports, Attendance Patterns, Conversion Metrics"
+        },
+        {
+          "title": "Referral & Marketing Analytics",
+          "description": "Track Most Successful Referral Channels, Campaign Performance"
+        }
+      ]
+    },
+    {
+      "title": "Roles & Permissions",
+      "description": "Manage roles and permissions",
+      "subtasks": [
+        {
+          "title": "Admin Role",
+          "description": "Full access to all modules and features"
+        },
+        {
+          "title": "Venue Manager Role",
+          "description": "Limited access to their own venues profile, events, and stats"
+        },
+        {
+          "title": "Support Staff Role",
+          "description": "Access to user profiles for support queries"
+        }
+      ]
+    },
+    {
+      "title": "Additional Features & Enhancements",
+      "description": "Implement additional features and enhancements",
+      "subtasks": [
+        {
+          "title": "Bulk Operations",
+          "description": "Implement Bulk Upload of new venues or users, Bulk Edit user status or event details"
+        },
+        {
+          "title": "Integration with Third-Party Tools",
+          "description": "Integrate with Payment Gateways, Email/SMS Marketing Tools, CRM or Customer Support Systems"
+        },
+        {
+          "title": "Automated Workflows & Alerts",
+          "description": "Implement Venue Contract Renewal reminders, User Re-engagement campaigns"
+        },
+        {
+          "title": "Security & Compliance",
+          "description": "Implement Data Encryption, GDPR Compliance, Audit Logs"
+        },
+        {
+          "title": "Performance Monitoring",
+          "description": "Track System Health Metrics, Load Handling"
+        }
+      ]
+    },
+    {
+      "title": "KPIs to Track for Growth",
+      "description": "Track KPIs to measure growth",
+      "subtasks": [
+        {
+          "title": "Growth KPIs",
+          "description": "Track Weekly/Monthly Active Users, Member Conversion Rate, Venue Satisfaction Score, Event Fill Rate, Average Spend per User, Referral Rate, Churn Rate"
+        }
+      ]
+    }
+  ]
+}
