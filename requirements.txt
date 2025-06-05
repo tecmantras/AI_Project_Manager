@@ -6,3 +6,4 @@ python-dotenv
 PyGithub
 openai
 PyPDF2
+google-generativeai
